@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "UTAU Installer", "UTAU Installer\UTAU Installer.vdproj", "{437213E5-6FC6-4D53-87EC-03BF231A8677}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{437213E5-6FC6-4D53-87EC-03BF231A8677}.Debug|Default.ActiveCfg = Debug
+		{437213E5-6FC6-4D53-87EC-03BF231A8677}.Debug|Default.Build.0 = Debug
+		{437213E5-6FC6-4D53-87EC-03BF231A8677}.Release|Default.ActiveCfg = Release
+		{437213E5-6FC6-4D53-87EC-03BF231A8677}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A44D622B-D4A2-49FB-B4C5-201817A44B35}
+	EndGlobalSection
+EndGlobal
