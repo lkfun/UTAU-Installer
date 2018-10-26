@@ -3877,13 +3877,29 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
         "Release"
         {
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\UTAU Installer.msi"
+        "OutputFilename" = "8:Release\\UTAU Installer .msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -3893,6 +3909,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -16736,6 +16768,52 @@
         }
         "FileType"
         {
+            "{5EB83D71-FA18-4901-BE56-DE22E13CC478}:_0BE7493B7AD94F399AAA88891F0BC0C7"
+            {
+            "Name" = "8:uar"
+            "Description" = "8:UTAU Installer Archive"
+            "Extensions" = "8:uar"
+            "MIME" = "8:"
+            "Icon" = "8:_9543C2E66B1444519A6B129AC585F867"
+            "IconIndex" = "3:102"
+                "Command"
+                {
+                "Command" = "8:_9543C2E66B1444519A6B129AC585F867"
+                }
+                "Verbs"
+                {
+                    "{95C0C507-CBF0-42B8-B119-07219E384A4A}:_ED0800BB46CC4BA7AF649BEE529D00A6"
+                    {
+                    "Command" = "8:&Open"
+                    "Verb" = "8:open"
+                    "Arguments" = "8:\"%1\""
+                    "Order" = "3:0"
+                    }
+                }
+            }
+            "{5EB83D71-FA18-4901-BE56-DE22E13CC478}:_BC44B6083A00447A9C3CF8533A6BE375"
+            {
+            "Name" = "8:ust"
+            "Description" = "8:UTAU Sequence Text"
+            "Extensions" = "8:UST"
+            "MIME" = "8:"
+            "Icon" = "8:_9543C2E66B1444519A6B129AC585F867"
+            "IconIndex" = "3:101"
+                "Command"
+                {
+                "Command" = "8:_9543C2E66B1444519A6B129AC585F867"
+                }
+                "Verbs"
+                {
+                    "{95C0C507-CBF0-42B8-B119-07219E384A4A}:_56E4C72ECC60492E96AB6FFE692395FA"
+                    {
+                    "Command" = "8:&Open"
+                    "Verb" = "8:open"
+                    "Arguments" = "8:\"%1\""
+                    "Order" = "3:0"
+                    }
+                }
+            }
         }
         "Folder"
         {
@@ -17075,19 +17153,19 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:UTAU"
-        "ProductCode" = "8:{2A13CF26-CC0D-45CA-B37E-92AD3A5113C4}"
-        "PackageCode" = "8:{3BA7C287-0891-4085-889E-1448E0926071}"
+        "ProductCode" = "8:{A0F6A5B6-A3B9-4A88-8F38-CBC4651BEE30}"
+        "PackageCode" = "8:{41FE7708-8E51-4840-8932-EA925562185F}"
         "UpgradeCode" = "8:{F991A979-BF2F-4549-9D2B-6E4C98379406}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.3"
+        "ProductVersion" = "8:1.0.4"
         "Manufacturer" = "8:飴屋／菖蒲"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:UTAU"
+        "Title" = "8:UTAU - 歌声合成工具"
         "Subject" = "8:"
         "ARPCONTACT" = "8:飴屋／菖蒲"
         "Keywords" = "8:"
@@ -17198,7 +17276,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_16B27FA56EB5440BB9C0DE85991F3289"
             {
-            "Name" = "8:UTAU"
+            "Name" = "8:UTAU - 歌声合成工具"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -17212,7 +17290,7 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_703628EB0E014D08B87F98C7F0943B09"
             {
-            "Name" = "8:UTAU"
+            "Name" = "8:UTAU - 歌声合成工具"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
